@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>rpsl4j: Routing Policy Specification Language implementation for Java</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">rpsl4j: Routing Policy Specification Language implementation for Java</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#download">Download</a></li>
+              <li><a href="#code">Source code</a></li>
+              <li><a href="#contributors">Contributors</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <h1>rpsl4j</h1>
+      <h2>Routing Policy Specification Language implementation for Java</h2>
+      <p>Is a Java library implementing the Routing Policy Specification Language (RPSL), as documented in <a href="https://tools.ietf.org/html/rfc2622">RFC 2622</a>.</p>
+
+      <div id="about">
+         <h2>About</h2>
+         <p>RIPE NCC's <a href="https://github.com/RIPE-NCC/whois">whois tool</a> is written in Java, and includes a basic RPSL parser. This parser is embedded in a larger tool, and has a few limitations that make it unsuitable as a generic RPSL parsing library. Namely, it does not include a mechanism to extract values from attributes, and does not implement equality between field types. rpsl4j is a complete, generic RPSL parsing library based on the RIPE NCC whois code, with these limitations resolved.</p>
+         <p>rpsl4j was originally developed as part of a project in the Australian National University's <a href="http://cs.anu.edu.au/TechLauncher/">TechLauncher</a> program.</p>
+        <p>Each module includes an explanation of the issue in general, a presentation of a relevant vulnerability found by the trainer, and then a hands-on challenge to find and exploit a similar vulnerability in a sample application. The sample application is <a href="https://github.com/pentestingforfunandprofit/webbank">freely available on github</a>.</p>
+      </div>
+
+      <div id="download">
+         <h2>Download</h2>
+         <p>A compiled rpsl4j JAR is available on <a href="http://search.maven.org/#artifactdetails|com.github.rpsl4j|rpsl4j-parser|1.80|jar">maven central</a>.</p>
+      </div>
+
+      <div id="code">
+         <h2>Source code</h2>
+         <p>The source code is <a href="https://github.com/rpsl4j/rpsl4j-parser">freely available on github</a>.</p>
+      </div>
+
+      <div id="contributors">
+         <h2>Contributors</h2>
+         <p>rpsl4j is developed by ANU students Andrew Maxwell, Benjamin Roberts, and Nathan Kelly, with supervision from David Jorm and Arun Babu Neelicattu of IIX.</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
+
